@@ -639,7 +639,8 @@ img {
   transform: translateY(100%);
 }
 
-.link-shadow:hover .overlay-content {
+.link-shadow:hover .overlay-content,
+.link-shadow:focus .overlay-content {
   transform: translateY(0);
 }
 
